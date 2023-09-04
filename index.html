@@ -18,7 +18,7 @@
             background-color: #85A382;
             position: fixed;
             top: 0;
-        }
+        } 
         
         #imageLogo {
             height: 100px;
@@ -46,7 +46,12 @@
             padding-top: 200px;
         }
         #education {
-            padding-top: 100px;
+            padding-top: 140px;
+            color: #395736;
+            
+        }
+        #education1 {
+            padding-top: 30px;
         }
         .educard {
             margin-top: 40px;
@@ -70,6 +75,10 @@
         #matric {
             padding-top: 75px;
         }
+        #skills {
+            padding-top: 140px;
+            color: #395736;
+        }
         #skilldiv {
             margin-top: 100px;
             border-radius: 30px;
@@ -81,11 +90,15 @@
             font-size: 24px;
             padding-top: 50px;
         }
+        #contact {
+            padding-top: 140px;
+            color: #395736;
+        }
         #form {
             width: 550px;
             height: 500px;
             background-color: #85A382;
-            margin-top: 100px;
+            margin-top: 30px;
             border-radius: 30px;
             text-align: center;
             color: #395736;
@@ -129,10 +142,8 @@
               </div>
             
         </nav>
-        <div class="container hidingUper">
-            hiding the uper part to set the nav
-        </div>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-Avantika" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        
+        <div data-bs-spy="scroll" data-bs-target="#" data-bs-offset="0" class="scrollspy-example" tabindex="0">
             <div class="container" id="home">
                 <p>
                     Hi There! <br><br>
@@ -147,7 +158,10 @@
                 </div>
                 
             </div>
-            <div class="container" id="education">
+
+            <h3 id="education">Education ____ :</h3>
+
+            <div class="container" id="education1">
                 <div class="container educard" id="bscs">
                     <h3>
                         Bachelor's in Computer-Science
@@ -180,7 +194,8 @@
                         </p>
                 </div>
             </div>
-           <div class="container" id="skills">
+            <h3 id="skills">Skills ___ :</h3>
+           <div class="container" >
             <div class="container" id="skilldiv">
                 <h3>
                     Skills in Languages and Libraries:
@@ -196,7 +211,10 @@
                 </p>
             </div>
            </div>
-            <div class="container" id="contact">
+           <h3 id="contact">
+                Contact ___:
+           </h3>
+            <div class="container">
                 <div class="container" id="form">
                     <label for="name">Full Name:</label><br>
                     <input type="text" name="name" id="name" size="37"><br><br>
@@ -212,5 +230,6 @@
             </div>
         </div>
     </div>
+    
 </body>
 </html>
